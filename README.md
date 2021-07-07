@@ -10,14 +10,3 @@ This video is an illustration of the project...
     <source src="2021-07-07 23-37-12.mkv" type="video/webm">
   </video>
 </figure>
-
-
-<figure class="video_container">
-  <iframe src="2021-07-07 23-37-12.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-<!-- <video width="320" height="240" controls>
-  <source src="2021-07-07 23-37-12.mp4" type="video/mp4">
-  <source src="2021-07-07 23-37-12.mp4.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video> -->
