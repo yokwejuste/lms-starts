@@ -34,3 +34,7 @@ def blog1(request):
 
 def blog2(request):
     return render(request, 'blog-home.html')
+
+
+def login(request):
+    return render(request, 'login.html')
