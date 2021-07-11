@@ -1,8 +1,11 @@
+import datetime
+
 from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'index.html')
+    today = datetime.datetime.now().date()
+    return render(request, 'index.html', {"today": today})
 
 
 def about(request):
@@ -31,7 +34,3 @@ def blog1(request):
 
 def blog2(request):
     return render(request, 'blog-home.html')
-
-
-def base_student(request):
-    return render(request, 'student/partials/base_student.html')

@@ -11,6 +11,5 @@ urlpatterns = [
     path('element', views.element),
     path('about', views.about, name='about'),
     path('blog1', views.about, name='blog1'),
-    path('blog2', views.about, name='blog2'),
-    path('forbidden', views.base_student, name='base1'),
+    path('blog2', views.about, name='blog2')
 ]
