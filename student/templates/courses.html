@@ -89,7 +89,7 @@
       <div class="owl-carousel popuar-course-carusel">
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p1.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="{% static 'img/popular-course/p1.jpg' %}" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
@@ -124,7 +124,7 @@
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p2.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="{% static 'img/popular-course/p2.jpg' %}" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
@@ -159,7 +159,7 @@
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p3.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="{% static 'img/popular-course/p3.jpg' %}" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
@@ -194,7 +194,7 @@
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p4.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="{% static 'img/popular-course/p4.jpg' %}" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
@@ -252,18 +252,18 @@
           <div class="course-form-section">
             <h3 class="text-white">Courses for Free</h3>
             <p class="text-white">It is high time for learning</p>
-            <form class="course-form-area contact-page-form course-form text-right" id="myForm" action="mail.html" method="post">
+            <form class="course-form-area contact-page-form course-form text-right" id="myForm" action="#" method="post">
               <div class="form-group col-md-12">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Name" onfocus="this.placeholder = ''"
-                 onblur="this.placeholder = 'Name'">
+                  <label for="name"></label><input type="text" class="form-control" id="name" name="name" placeholder="Name" onfocus="this.placeholder = ''"
+                                                   onblur="this.placeholder = 'Name'">
               </div>
               <div class="form-group col-md-12">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Phone Number" onfocus="this.placeholder = ''"
-                 onblur="this.placeholder = 'Phone Number'">
+                  <label for="subject"></label><input type="text" class="form-control" id="subject" name="subject" placeholder="Phone Number" onfocus="this.placeholder = ''"
+                                                      onblur="this.placeholder = 'Phone Number'">
               </div>
               <div class="form-group col-md-12">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''"
-                 onblur="this.placeholder = 'Email Address'">
+                  <label for="email"></label><input type="email" class="form-control" id="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''"
+                                                    onblur="this.placeholder = 'Email Address'">
               </div>
               <div class="col-lg-12 text-center">
                 <button class="btn text-uppercase">Submit</button>
