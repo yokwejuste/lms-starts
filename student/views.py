@@ -55,11 +55,7 @@ def login_page(request):
                 messages.info(request, 'Username OR password is incorrect')
 
         context = {}
-        return render(request, 'login.html', context)
-
-
-def login1(request):
-    return render(request, 'index.html')
+        return render(request, 'index.html', context)
 
 
 def register(request):
